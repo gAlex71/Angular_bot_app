@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { IProduct } from '../../services/products.service';
 import { RouterLink } from '@angular/router';
-
+//test commit for authentication
 @Component({
   selector: 'app-product-list',
   standalone: true,
