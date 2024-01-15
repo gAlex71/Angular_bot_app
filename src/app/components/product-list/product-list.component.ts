@@ -11,7 +11,7 @@ import { RouterLink } from '@angular/router';
     <h4>{{ subtitle }}</h4>
     <ul>
       @for (prod of products; track prod.id) {
-        <li>
+        <li [routerLink]="'/product/' + prod.id">
           <div>{{ prod.title }}</div>
           <div>{{ prod.name }}</div>
           <div>{{ prod.description }}</div>
